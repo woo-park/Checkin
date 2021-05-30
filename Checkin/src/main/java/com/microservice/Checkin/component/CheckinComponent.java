@@ -26,13 +26,18 @@ public class CheckinComponent {
 	public long checkIn(CheckInRecord checkIn) {
 		checkIn.setCheckInTime(new Date());
 		logger.info("Saving checkin ");
+
 		//save
-		long id = checkinRepository.save(checkIn).getId();
+		CheckInRecord checkInRecord = checkinRepository.save(checkIn);
+		long checkedInId = checkInRecord.getId();
 		logger.info("Successfully saved checkin ");
+
 		//send a message back to booking to update status
-		logger.info("Sending booking id "+ id);
-		sender.send(id);	
-		return id;
+		long bookingId = checkInRecord.getBookingId();
+		logger.info("Sending booking id "+ bookingId);
+		sender.send(bookingId);
+
+		return checkedInId;
 	}
 	
 	public CheckInRecord getCheckInRecord(long id){
