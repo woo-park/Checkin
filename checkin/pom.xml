@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.microservice</groupId>
-	<artifactId>Checkin</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
-	<name>Checkin</name>
-	<description>microservice Checkin business logic</description>
+	<artifactId>checkin</artifactId>
+	<version>1.0</version>
+	<name>checkin</name>
+	<description>microservice checkin business logic</description>
 	<properties>
 		<java.version>1.8</java.version>
 	</properties>
