@@ -1,7 +1,7 @@
-package com.microservice.Checkin.controller;
+package com.microservice.checkin.controller;
 
-import com.microservice.Checkin.component.CheckinComponent;
-import com.microservice.Checkin.domain.CheckInRecord;
+import com.microservice.checkin.component.CheckinComponent;
+import com.microservice.checkin.domain.CheckInRecord;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

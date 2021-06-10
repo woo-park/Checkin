@@ -1,4 +1,4 @@
-package com.microservice.Checkin.component;
+package com.microservice.checkin.component;
 
 import org.springframework.amqp.core.Queue;
 import org.springframework.amqp.rabbit.core.RabbitMessagingTemplate;

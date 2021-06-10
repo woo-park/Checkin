@@ -1,7 +1,7 @@
-package com.microservice.Checkin.component;
+package com.microservice.checkin.component;
 
-import com.microservice.Checkin.domain.CheckInRecord;
-import com.microservice.Checkin.repository.CheckinRepository;
+import com.microservice.checkin.domain.CheckInRecord;
+import com.microservice.checkin.repository.CheckinRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

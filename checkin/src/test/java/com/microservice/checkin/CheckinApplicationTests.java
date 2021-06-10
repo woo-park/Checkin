@@ -1,4 +1,4 @@
-package com.microservice.Checkin;
+package com.microservice.checkin;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

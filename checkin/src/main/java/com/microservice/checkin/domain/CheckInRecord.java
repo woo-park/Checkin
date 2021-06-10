@@ -1,4 +1,4 @@
-package com.microservice.Checkin.domain;
+package com.microservice.checkin.domain;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
